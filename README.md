@@ -1,4 +1,4 @@
-### Refer to the image below:
+### Refer to the working below:
 
 <br/>
 <div style="text-align: center;">
