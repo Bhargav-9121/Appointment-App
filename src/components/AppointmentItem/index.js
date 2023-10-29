@@ -19,8 +19,8 @@ const AppointmentItem = props => {
     <li>
       <p>{tit}</p>
       <p>{`Date: ${formattedDate}`}</p>
-      <button type="button" data-testid="star">
-        <img onClick={doThis} src={starUrl} alt="star" />
+      <button onClick={doThis} type="button" data-testid="star">
+        <img src={starUrl} alt="star" />
       </button>
     </li>
   )

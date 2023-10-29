@@ -63,26 +63,31 @@ class Appointments extends Component {
       <div>
         <div>
           <h1>Add Appointment</h1>
+          <div>
+            <form onSubmit={this.submitForm}>
+              <label htmlFor="tit-in">TITLE</label>
+              <input
+                value={titleInput}
+                onChange={this.titChange}
+                type="text"
+                id="tit-in"
+              />
 
-          <form onSubmit={this.submitForm}>
-            <label htmlFor="tit-in">TITLE</label>
-            <input
-              value={titleInput}
-              onChange={this.titChange}
-              type="text"
-              id="tit-in"
-            />
+              <label htmlFor="date-in">DATE</label>
+              <input
+                value={dateInput}
+                onChange={this.dateChange}
+                type="date"
+                id="date-in"
+              />
 
-            <label htmlFor="date-in">DATE</label>
-            <input
-              value={dateInput}
-              onChange={this.dateChange}
-              type="date"
-              id="date-in"
-            />
-
-            <button type="submit">Add</button>
-          </form>
+              <button type="submit">Add</button>
+            </form>
+          </div>
+          <img
+            alt="appointments"
+            src="https://assets.ccbp.in/frontend/react-js/appointments-app/appointments-img.png"
+          />
 
           <hr />
 
