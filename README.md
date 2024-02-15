@@ -6,7 +6,7 @@
 </div>
 <br/>
 
-The app must have the following functionalities
+The application has the following functionalities
 
 - Initially, the list of appointments should be empty and the title input and date input should be empty
 - When non-empty values are provided for title and date and the **Add** button is clicked,
